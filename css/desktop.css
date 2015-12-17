@@ -1,0 +1,23 @@
+
+#logo {
+  width: 30vw;
+  min-width: 300px;
+  max-width: 500px;
+  margin-top: 40vh;
+}
+
+#banner {
+  height: 80vh;
+  width: 100vw;
+  background: url("../resources/imgs/header_bg.jpg");
+  background-size: cover;
+}
+
+.section {
+  width: 100vw;
+}
+
+.secA {
+  height: 500px;
+  background: #f3f3f3;
+}

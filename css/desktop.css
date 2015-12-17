@@ -22,6 +22,15 @@
   padding-bottom: 12vh;
 }
 
+.decor {
+  background: blue;
+  width: 2px;
+  height: 100px;
+  float: left;
+  margin-right: 10px;
+}
+
+/*SECTION A*/
 .secA {
   /*height: 500px;*/
   background: #f3f3f3;
@@ -31,6 +40,7 @@
   background: #999;
 }
 
+/*SECTION B*/
 .secB img {
   width: 100%;
   height: auto;
@@ -38,4 +48,38 @@
 
 .secB p {
   padding-right: 10px;
+}
+
+.join {
+  text-align: center;
+}
+
+.secB button {
+  outline-style: none;
+  width: 300px;
+  font-size: 1.8em;
+  font-weight: 100;
+}
+
+/*SECTION C*/
+.secC img {
+  display: inline-block;
+  float: left;
+  width: 200px;
+  height: auto;
+}
+
+.secC p {
+  padding-right: 10px;
+}
+
+.join {
+  text-align: center;
+}
+
+.secC button {
+  outline-style: none;
+  width: 300px;
+  font-size: 1.8em;
+  font-weight: 100;
 }

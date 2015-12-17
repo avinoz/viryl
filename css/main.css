@@ -1,4 +1,8 @@
+
+
 /*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+/*@import url('http://fonts.googleapis.com/css?family=Raleway');*/
 
 html {
     color: #fbfbfb;
@@ -78,8 +82,9 @@ html {
 }
 
 body {
-    font-family: "Roboto", Helvetica, sans-serif;
-    font-weight: 300;
+    font-family: "Arvo", Helvetica, sans-serif;
+    font-weight: 100;
+    letter-spacing: 1px;
     font-size: 100%;
     font-style: normal;
     color: #444;
@@ -101,8 +106,8 @@ h1 {
 h2 {
     margin-bottom: 1em;
 
-    font-size: 1.6em;
-    font-weight: 400;
+    font-size: 1.8em;
+    font-weight: 100;
 }
 
 h3 {
@@ -151,7 +156,7 @@ a:hover, a:active {
 /*GRID ARGUMENTS*/
 
 .col {
-    background-color: #999;
+    /*background-color: #999;*/
 }
 
 @media (min-width: 50em) {

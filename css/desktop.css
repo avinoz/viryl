@@ -10,7 +10,7 @@
 }
 
 #banner {
-  height: 80vh;
+  height: 90vh;
   width: 100vw;
   background: url("../resources/imgs/header_bg.jpg");
   background-size: cover;
@@ -63,18 +63,12 @@
 
 /*SECTION C*/
 .secC img {
-  display: inline-block;
-  float: left;
-  width: 200px;
-  height: auto;
+  width: 100%;
 }
 
-.secC p {
-  padding-right: 10px;
-}
-
-.join {
-  text-align: center;
+.bio_cont {
+  padding-left: 2%;
+  box-sizing: border-box;
 }
 
 .secC button {
@@ -82,4 +76,56 @@
   width: 300px;
   font-size: 1.8em;
   font-weight: 100;
+}
+
+/*FOOTER*/
+#footer_cont {
+  width: 100vw;
+  background: black;
+  padding: 10px;
+  height: 65px;
+}
+
+footer {
+position: fixed;
+bottom: -1px;
+left: -1px;
+}
+
+#footer_btn_left {
+  float: left;
+  height: 34px;
+  margin: 5px -6px 0 0;
+}
+
+#footer_btn_right {
+  float: right;
+}
+
+footer button {
+  appearance: none;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 1px;
+  font-size: 12px;
+  line-height: 24px;
+  font-weight: 100;
+  color: white;
+  text-transform: uppercase;
+
+  border: none;
+  background: #669933;
+  padding: 6px 20px 4px 20px;
+}
+
+footer input {
+  color: white;
+  font-size: 12px;
+
+  padding: 5px 5px 5px 15px;
+  background: #555;
+  border: none;
+  height: 34px;
+  margin: 5px -6px 0 0;
+  border-radius: 0;
+  width: 230px;
 }

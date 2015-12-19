@@ -32,47 +32,65 @@
   background-size: cover;
 }
 
-.machine_A {
-  text-align: left;
-  margin-top: -53vh;
-}
-
-#machine_A {
-  margin: 130px 0 0 -1px;
-  width: 60vw;
-  min-width: 350px;
-}
-
 /*SECTION A*/
 .secA {
-  /*height: 500px;*/
   background: black;
   color: #65972e;
 }
 
-.secB {
-  background: #999;
+.secA_block {
+  text-align: center;
+  padding-bottom: 6vw;
+}
+
+.machine_A {
+  margin-top: -48vh;
+  margin-bottom: 11vw;
+}
+
+#machine_A {
+  margin: 130px 0 0 -1px;
+  width: 100vw;
+  min-width: 900px;
 }
 
 /*SECTION B*/
-.secB img {
-  width: 100%;
-  height: auto;
+.secB {
+  /*background: #999;*/
+  background: url("../resources/imgs/axon2.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 1000px;
 }
 
-.secB p {
-  padding-right: 10px;
+.secB {
+  color: white;
 }
 
-.join {
+.secB_cont{
+  /*background: red;*/
   text-align: center;
 }
 
-.secB button {
-  outline-style: none;
-  width: 300px;
-  font-size: 1.8em;
-  font-weight: 100;
+.secB h1 {
+  font-family: "Roboto", Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 12em;
+  letter-spacing: -.5vw;
+  margin: 0;
+}
+
+.percentage span {
+  font-size: .2em;
+}
+
+.secB h4 {
+  font-family: "Roboto",Helvetica, sans-serif;
+  font-size: 1.1em;
+  text-transform: uppercase;
+  font-weight: 300;
+  margin-top: -5vh;
+  padding-left: 1vw;
 }
 
 /*SECTION C*/

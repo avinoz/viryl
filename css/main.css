@@ -8,8 +8,6 @@ html {
     color: #fbfbfb;
     font-size: 1em;
     line-height: 1.4;
-    overflow-x: hidden;
-
 }
 
 ::-moz-selection {
@@ -76,6 +74,7 @@ textarea {
 
 html {
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 *, *:before, *:after {
@@ -90,6 +89,7 @@ body {
     font-size: 100%;
     font-style: normal;
     color: #444;
+    overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {

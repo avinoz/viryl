@@ -148,6 +148,11 @@ header button {
   text-align: center;
 }
 
+.secB img {
+  width: 50%;
+  padding-bottom: 1vh;
+}
+
 .secB1 {
   /*background: #999;*/
   background: url("../resources/imgs/testA.jpg");
@@ -187,6 +192,7 @@ header button {
   font-weight: 400;
   margin-top: -3vh;
   padding-left: 1vw;
+  padding-bottom: 3vh;
   color: black;
 }
 

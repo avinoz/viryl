@@ -12,7 +12,9 @@
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/avinozgrid.css">
     <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="./css/desktop.css">
+    <link rel="stylesheet" href="./css/desktop.css" type="text/css" />
+    <link rel="stylesheet" href="./css/mobile.css" type="text/css" />
+
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Arvo:100,200,400&amp;lang=en" />
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Raleway:100,200,400&amp;lang=en" />
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,100' rel='stylesheet' type='text/css'>
@@ -24,87 +26,69 @@
     <header role="contentinfo" class="mt-xl ta-c debug">
         <div id="header_cont">
             <div id="header_btn_left">
-                <img id="header_logo" src="./resources/imgs/viryl_logo2.png">
+                <a href="#"><img id="header_logo" src="./resources/imgs/viryl_logo2.png"></a>
             </div>
-            <button id="header_btn_right">Schedule Prototype Viewing</button>
+            <a class="contact" href="mailto:pressingmatters@viryltech.com?Subject=Schedule%20Viewing" target="_top"><button id="header_btn_right">Book Viewing</button></a>
         </div>
     </header>
 
-    <div class="banner container sec0 debug">
+    <div class="banner container secA debug">
         <div class="row top debug">
-            <div class="red col span-12-t span-1-d debug secA_block">.</div>
-            <div class="col span-12-t span-4-d debug secA_block">
+            <div class="red col span-12-t span-1-d debug">.</div>
+            <div class="col span-12-t span-4-d debug">
                 <img id="machine" src="./resources/imgs/machine.png">
             </div>
             <div class="col span-12-t span-6-d debug secA_block">
-                <h2><p>Don’t let <br>a clunky machine<br>stop the music.</p></h2>
-                <!-- <h2></h2> -->
+                <div id="bufferA"></div>
+                <h2><p>Don’t let a<br>clunky machine<br>stop the music.</p></h2>
                 <h3><p>Viryl Tech. has taken proven vinyl pressing technology and made it easier and better, with added automation, precision and efficiency. Our fully-automated machines means your plant will produce more records with less time setting up record runs, re-grinding wasted vinyl, sorting out flawed records and standing by to aid the process, allowing you to keep up with surging demand. Our North American-made presses are easy to use, but if you run into a snag, we're here for remote support worldwide, and your machine is under 1 year warranty.</p></h3>
             </div>
         </div>
     </div>
 
-
-    <div class="container debug secA"></div>
-
-<!--     <div id="bufferA"></div>
-    <div class="section secB1">
-        <main role="main" class="container debug">
-            <div class="row debug"></div>
-        </main>
-    </div> -->
-
-
-    <!-- DIGRAM SECTION -->
-
     <div class="section secB">
         <main role="main" class="container debug">
             <div class="row debug">
                 <div class="col span-4-t span-4-d debug secB_cont">
-                    <h1></h1>
                     <img src="./resources/imgs/iconA.png">
                     <h4>Faster Cycle Times</h4>
                 </div>
                 <div class="col span-4-t span-4-d debug secB_cont">
-                    <h1></h1>
                     <img src="./resources/imgs/iconB.png">
                     <h4>Less Wasted Vinyl</h4>
                 </div>
                 <div class="col span-4-t span-4-d debug secB_cont">
-                    <h1></h1>
                     <img src="./resources/imgs/iconC.png">
                     <h4>Minimal Repair Time</h4>
                 </div>
+            </div>
+            <div class="row debug">
                 <div class="col span-4-t span-4-d debug secB_cont">
-                    <h1></h1>
                     <img src="./resources/imgs/iconD.png">
                     <h4>North American Made</h4>
                 </div>
                 <div class="col span-4-t span-4-d debug secB_cont">
-                    <h1></h1>
                     <img src="./resources/imgs/iconF.png">
-                    <h4>1Year Parts & Service</h4>
-                </div>
-                <div class="col span-4-t span-4-d debug secB_cont">
-                    <h1></h1>
-                    <img src="./resources/imgs/iconE.png">
                     <h4>World Wide Coverage</h4>
                 </div>
                 <div class="col span-4-t span-4-d debug secB_cont">
-                    <h1></h1>
+                    <img src="./resources/imgs/iconE.png">
+                    <h4>1 Year Parts & Service</h4>
+                </div>
+            </div>
+            <div class="row debug">
+                <div class="col span-4-t span-4-d debug secB_cont">
                     <img src="./resources/imgs/iconG.png">
                     <h4>Financing Available</h4>
                 </div>
                 <div class="col span-4-t span-4-d debug secB_cont">
-                    <h1></h1>
+                    <img src="./resources/imgs/iconI.png">
+                    <h4>Remote Support</h4>
+                </div>
+                <div class="col span-4-t span-4-d debug secB_cont">
                     <img src="./resources/imgs/iconH.png">
                     <h4>Energy Saving</h4>
                 </div>
-        <!--         <div class="col span-4-t span-4-d debug secB_cont">
-                    <h1></h1>
-                    <img src="./resources/imgs/iconI.png">
-                    <h4>Less Wasted Vinyl</h4>
-                </div> -->
             </div>
         </main>
     </div>
@@ -121,7 +105,7 @@
             <img id="testsect" src="./resources/imgs/testC.jpg">
         </div>
 
-        <div id="bufferA"></div>
+        <div id="bufferB"></div>
 
         <!-- TESTING -->
 
@@ -137,13 +121,13 @@
     <div class="section secF">
         <main role="main" class="container debug">
             <h1 class="debug">The Team</h1>
-            <div class="row debug">
+            <div class="row debug bio_hori_row">
 
                 <div class="bio_cont3 col span-8-t span-4-d debug">
                     <div class="bio_cont2">
-                    <div id="imgdiv2">
-                        <img src="./resources/imgs/personA.png">
-                        <img id="linkedin2" src="./resources/imgs/linkedin.png">
+                    <div class="imgdiv2">
+                        <a href="https://ca.linkedin.com/in/chad-brown-33047433"><img id="linkedin_bio" src="./resources/imgs/linkedin.png"></a>
+                        <img class="verti_bio" src="./resources/imgs/personA.png">
                     </div>
                     <div class="bio_title2">
                         <h2>Chad Brown</h2><br>
@@ -155,9 +139,9 @@
 
                 <div class="bio_cont3 col span-8-t span-4-d debug">
                     <div class="bio_cont2">
-                    <div id="imgdiv2">
-                        <img src="./resources/imgs/personB.png">
-                        <img id="linkedin2" src="./resources/imgs/linkedin.png">
+                    <div class="imgdiv2">
+                        <a href="https://ca.linkedin.com/in/chad-brown-33047433"><img id="linkedin_bio" src="./resources/imgs/linkedin.png"></a>
+                        <img class="verti_bio" src="./resources/imgs/personB.png">
                     </div>
                     <div class="bio_title2">
                         <h2>Rob Brown</h2>
@@ -170,15 +154,17 @@
 
                 <div class="bio_cont3 col span-8-t span-4-d debug">
                     <div class="bio_cont2">
-                    <div id="imgdiv2">
-                        <img src="./resources/imgs/personC.png">
-                        <img id="linkedin2" src="./resources/imgs/linkedin.png">
+                    <div class="imgdiv2">
+                        <a href="https://ca.linkedin.com/in/chad-brown-33047433"><img id="linkedin_bio" src="./resources/imgs/linkedin.png"></a>
+                        <img class="verti_bio" src="./resources/imgs/personC.png">
                     </div>
                     <div class="bio_title2">
+                    <div class="hello">
                         <h2>James Hashmi</h2>
                         <h5>BASc. </h5><br>
                         <h4>Chief Technology Officer</h4>
                         <p>James has honed his entrepreneurial spirit and versatility by spending nine years in product development roles with fast-paced, innovative companies, including Research In Motion/ BlackBerry, Sentinelle Medical, and Automation Tooling Systems. His career spans the medical device, advanced automated machinery, automotive multi-stage tool and die, and mobile handset industries. Backed by his professional experience and a University of Waterloo degree in Mechanical Engineering with a specialization in mechatronics, he knows what it takes to commercialize new products in any market.</p>
+                    </div>
                     </div>
                 </div>
                 </div>
@@ -187,9 +173,9 @@
             <div class="row debug">
                 <div class="bio_cont4">
                 <div class="col span-4-t span-4-d debug">
-                    <div id="imgdiv3">
-                        <img src="./resources/imgs/personD.png">
-                        <!-- <img id="linkedin2" src="./resources/imgs/linkedin.png"> -->
+                    <div class="imgdiv3">
+                        <img class="hori_bio" src="./resources/imgs/personD.png">
+                        <a href="https://ca.linkedin.com/in/chad-brown-33047433"><img id="linkedin_bio" src="./resources/imgs/linkedin.png"></a>
                     </div>
                 </div>
                 <div class="bio_cont col span-8-t span-8-d debug">
@@ -206,9 +192,9 @@
             <div class="row debug">
                 <div class="bio_cont4">
                 <div class="col span-4-t span-4-d debug">
-                    <div id="imgdiv3">
-                        <img src="./resources/imgs/personE.png">
-                        <!-- <img id="linkedin2" src="./resources/imgs/linkedin.png"> -->
+                    <div class="imgdiv3">
+                        <img class="hori_bio" src="./resources/imgs/personE.png">
+                        <a href="https://ca.linkedin.com/in/chad-brown-33047433"><img id="linkedin_bio" src="./resources/imgs/linkedin.png"></a>
                     </div>
                 </div>
                 <div class="bio_cont col span-8-t span-8-d debug">
@@ -217,8 +203,7 @@
                         <h4>Client Manager</h4>
                         <hr>
                     </div>
-                    <p>Dietrich has been a professional musician, sound designer and audio engineer for almost two decades. From playing gigs as a teenager in the early 90s to DJing at international electronic dance music events, releasing recordings on both vinyl and CD formats, and doing remixing work and audio mastering, his track record is diverse. He owns and operates the company Complete Mastering, which provides services heavily geared towards vinyl records with lacquer cutting services in-house. Complete Mastering is also home to the vinyl-based record label Complete Distribution. His decades in the industry and strong relationships with pressing plants around the globe give him an insider perspective on the vinyl record pressing business.
-                    </p>
+                    <p>Dietrich has been a professional musician, sound designer and audio engineer for almost two decades. From playing gigs as a teenager in the early 90s to DJing at international electronic dance music events, releasing recordings on both vinyl and CD formats, and doing remixing work and audio mastering, his track record is diverse. He owns and operates the company Complete Mastering, which provides services heavily geared towards vinyl records with lacquer cutting services in-house. Complete Mastering is also home to the vinyl-based record label Complete Distribution. His decades in the industry and strong relationships with pressing plants around the globe give him an insider perspective on the vinyl record pressing business.</p>
                 </div>
                 </div>
             </div>
@@ -234,31 +219,45 @@
             <div class="row debug">
                 <div class="col span-12-t span-4-d debug">
                     <div class="footer_cont">
-                    <h2>Contact</h2><br>
-                    2412 East Main Street Olney, IL 62450 <br>
+                    <h2>Contact Us</h2><br>
+                    <a href="https://www.google.com/maps/place/16+Goodrich+Rd,+Etobicoke,+ON+M8Z+2H1,+Canada/@43.6282166,-79.5280123,17" target="_blank">16 Goodrich Road, Unit D<br>
+                    Toronto, Ontario, Canada, M8Z 4Z8</a><br>
                     <br>
-                    Phone: (+1) 618-395-2400<br>
-                    Fax: (+1) 618-395-2900<br>
-                    <br>
-                    Email: info@viryltech.com<br>
-                    Website: http://www.viryltech.com/
+                    Phone:<a href="tel:+18444684795"> 1-844-GO-VIRYL (468-4795)</a><br>
+                    Email:<a class="contact" href="mailto:pressingmatters@viryltech.com?Subject=Schedule%20Viewing" target="_top"> pressingmatters@viryltech.com</a><br>
+                    <!-- Website: http://www.virylech.com/ -->
                     <br></div>
                 </div>
-                <div class="col span-12-t span-4-d debug">
-                    <br>
-                </div>
+                <div class="col span-12-t span-4-d debug"><br></div>
                 <div class="col span-12-t span-4-d debug">
                     <div class="footer_contB">
-                    <div class="row debug">
-                    <img src="./resources/imgs/icons.png"><br>
-                    </div>
-                    <p>Terms of Use<br>
-                    Privacy Poicy</p>
+                        <div class="row debug">
+                            <a href="https://www.linkedin.com/company/viryl-technologies-corp-?trk=top_nav_home" target="_blank">
+                                <div class="icon linkedin"></div>
+                            </a>
+                            <a href="https://www.instagram.com/Viryltech/" target="_blank">
+                                <div class="icon instagram"></div>
+                            </a>
+                            <a href="https://twitter.com/viryltech" target="_blank">
+                                <div class="icon twitter"></div>
+                            </a>
+                            <a href="https://www.facebook.com/Viryltech/" target="_blank">
+                                <div class="icon facebook"></div>
+                            </a>
+                        </div>
+                    <a href="" target="_blank">
+                        <span>Terms of Use</span>
+                    </a><br>
+                    <a href="" target="_blank">
+                        <span>Privacy Poicy</span>
+                    </a>
                     </div>
                 </div>
             </div>
-            <p>Copyright @ Viryl Technologies. All rights reserved.</p>
+            <p>Copyright @ Viryl Technologies. All rights reserved. </p>
         </main>
     </footer>
     </div>
 </body></html>
+
+

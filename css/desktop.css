@@ -297,7 +297,7 @@ header button:active {
 }*/
 
 .bio_hori_row {
-  border: red 1px solid;
+  /*border: red 1px solid;*/
 }
 
 .hello{
@@ -309,7 +309,7 @@ header button:active {
 }
 
 .bio_cont4 {
-  height: 50%;
+  height: 350px;
 }
 
 .secF button {

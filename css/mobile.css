@@ -1,14 +1,30 @@
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  .machine_A {
-    margin-top: -48vh;
-    margin-bottom: 10vw;
-    position: absolute;
-    right: -80vw;
+  #bufferB{
+    height: 0px;
   }
 
-  #machine_A {
-    margin: 130px 0 0 -1px;
-    width: 180vw;
-    min-width: 900px;
+
+
+
+
+
+
+  /*FOOTER*/
+  footer p {
+    font-size: .6em;
+    margin-bottom: 3vh;
+    text-align: left;
+  }
+
+  footer h2 {
+    display: none;
+  }
+
+  .footer_cont {
+    padding: 0;
+  }
+
+  .footer_contB {
+    display: none;
   }
 }

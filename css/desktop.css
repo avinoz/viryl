@@ -106,12 +106,9 @@ header button:active {
   line-height: 70px;
   text-align: left;
   margin-left: 5vw;
-  /*font-style: italic;*/
-  /*text-transform: uppercase;*/
 }
 
 .secA h3 {
-  margin: 2vh 0 0 5vw;
   font-family: "Roboto", Helvetica, sans-serif;
   letter-spacing: 2px;
   text-align: left;
@@ -181,7 +178,6 @@ header button:active {
 }
 
 #imgdiv {
-  /*border: solid 1px red;*/
   float: right;
   width: 100%;
   height: 300px;
@@ -221,57 +217,61 @@ header button:active {
 
 /*SECTION F*/
 .secF {
-  /*background: #f3f3f3;*/
   background: url("../resources/imgs/axon2.jpg");
   background-size: cover;
   background-position: center;
 }
 
-#imgdiv2 {
+.imgdiv2 {
   width: 100%;
   background: lightgray;
-  /*background: #669933;*/
   display: inline-block;
   box-sizing: border-box;
 }
 
-#imgdiv3 {
-  width: 100%;
+.imgdiv3 {
   background: lightgray;
-  /*background: #669933;*/
   display: inline-block;
-  box-sizing: border-box;
+  width: 100%;
   height: 100%;
+  position: relative;
+  box-sizing: border-box;
+  overflow-y: hidden;
+
 }
 
-.bio_cont p {
-  padding: 0 30px 0 25px;
-}
-
-#imgdiv3 img {
-  margin-top: 33px;
+.verti_bio {
   float: right;
   width: 80%;
   display: inline-block;
-
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
 }
 
-.secF img {
-  float: left;
+.hori_bio {
+  /*float: left;*/
   width: 80%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
   display: inline-block;
-
-  /*-webkit-filter: sepia(100%);*/
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
 }
 
-#linkedin2 {
+
+#linkedin_bio {
   width: 25px;
   margin: 10px;
-  float: right;
+  float: left;
+  opacity: .2;
+  transition: opacity .1s ease-in-out;
+  -moz-transition: opacity .1s ease-in-out;
+  -webkit-transition: opacity .1s ease-in-out;
+}
+
+#linkedin_bio:hover {
+  opacity: 1;
 }
 
 .bio_cont2, .bio_cont4 {
@@ -284,16 +284,32 @@ header button:active {
   box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.3);
 }
 
+.bio_cont p {
+  padding: 0 30px 0px 25px;
+}
+
 .bio_cont2 p, .bio_cont4 p {
   font-size: .8em;
 }
 
+/*.hori_bio_row {
+  background: red;
+}*/
+
+.bio_hori_row {
+  border: red 1px solid;
+}
+
+.hello{
+  /*height: 100%;*/
+}
+
 .bio_cont2 {
-  height: 750px;
+  /*height: 100%;*/
 }
 
 .bio_cont4 {
-  height: 300px;
+  height: 50%;
 }
 
 .secF button {
@@ -330,7 +346,7 @@ header button:active {
 }
 
 .bio_title2 {
-  padding: 25px 25px 0 25px;
+  padding: 25px 25px 25px 25px;
   position: relative;
   width: 100%;
   vertical-align: bottom;

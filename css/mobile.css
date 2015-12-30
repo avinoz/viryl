@@ -4,10 +4,31 @@
   }
 
 
+  /*HEADER*/
+  #header_btn_right {
+    display: none;
+  }
 
+  #bufferA {
+    height: 0;
+  }
 
+  .secA h3 {
+    font-family: "Roboto", Helvetica, sans-serif;
+    letter-spacing: 2px;
+    text-align: left;
+    width: 90%;
+    margin: 0vh 0 7vh 5vw;
+  }
 
-
+  /*SEC F*/
+  .secF h1 {
+    font-family: "Roboto", Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 3em;
+    padding-bottom: 1vh;
+    margin: 0;
+  }
 
   /*FOOTER*/
   footer p {

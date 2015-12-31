@@ -196,26 +196,20 @@ header button:active {
 }
 
 .bio_cont {
-  padding-left: 2%;
-  box-sizing: border-box;
-}
-
-.bio_cont p{
-  margin-bottom: 40px;
+  width: 66.666%;
+  display: inline-block;
+  float: right;
+  position: relative;
 }
 
 .bio_cont p {
+  margin-bottom: 40px;
   padding: 0 30px 0px 25px;
 }
 
 .bio_cont2 p, .bio_cont4 p {
   display: inline-block;
   font-size: .8em;
-}
-
-.bio_cont4 p {
-  padding: 120px 25px 0 37%;
-  position: absolute;
 }
 
 .bio_cont2, .bio_cont4 {
@@ -229,12 +223,23 @@ header button:active {
 }
 
 .bio_cont2 {
-  min-height: 780px;
+  min-height: 800px;
 }
 
 .bio_cont4 {
-  min-height: 350px;
+  margin-bottom: 4px;
+  min-height: 330px;
   position: relative;
+}
+
+.hori_text_cont {
+  background: #fafafa;
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  font-size: .8em;
+  padding: 120px 35px 35px 35px;
+  position: absolute;
 }
 
 .bio_title {
@@ -244,13 +249,11 @@ header button:active {
 }
 
 .bio_title2 {
-  padding: 25px 25px 0 35%;
+  padding: 25px 25px 0 35px;
   width: 100%;
   display: inline-block;
   position: absolute;
-
-  /*vertical-align: bottom;*/
-  /*float: right;*/
+  z-index: 2;
 }
 
 .secF {
@@ -289,14 +292,15 @@ header button:active {
   overflow-y: hidden;
   position: absolute;
   display: inline-block;
+  float: left;
 }
 
 
 .hori_bio {
-  width: 80%;
-  position: absolute;
+  width: 90%;
   bottom: 0;
   right: 0;
+  position: absolute;
   display: inline-block;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
@@ -304,16 +308,11 @@ header button:active {
 
 .verti_bio {
   float: right;
-  width: 80%;
+  width: 85%;
   display: inline-block;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
 }
-
-
-
-
-
 
 .secF button {
   outline-style: none;

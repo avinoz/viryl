@@ -134,6 +134,12 @@ header button:active {
 .secB img {
   width: 50%;
   padding-bottom: 1vh;
+  /*cursor: pointer;*/
+  transition: all .1s ease-in-out;
+}
+
+.secB img:hover {
+  transform: scale(1.08,1.08);
 }
 
 .secB2 {
@@ -223,7 +229,7 @@ header button:active {
 }
 
 .bio_cont2 {
-  min-height: 800px;
+  min-height: 850px;
 }
 
 .bio_cont4 {
@@ -280,9 +286,13 @@ header button:active {
   width: 100%;
   background: lightgray;
   display: inline-block;
-  box-sizing: border-box;
-}
 
+  box-sizing: border-box;
+  transition: all .2s ease;
+}
+.imgdiv2:hover {
+  background: #e0e0e0;
+}
 
 .imgdiv3 {
   background: lightgray;
@@ -293,8 +303,26 @@ header button:active {
   position: absolute;
   display: inline-block;
   float: left;
+  transition: all .2s ease;
+}
+.imgdiv3:hover {
+  background: #e0e0e0;
 }
 
+
+.verti_bio {
+  float: right;
+  width: 90%;
+  display: inline-block;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  transition: all .2s ease;
+}
+
+.verti_bio:hover {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
 
 .hori_bio {
   width: 90%;
@@ -304,15 +332,14 @@ header button:active {
   display: inline-block;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
+  transition: all .2s ease;
 }
 
-.verti_bio {
-  float: right;
-  width: 85%;
-  display: inline-block;
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
+.hori_bio:hover {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
 }
+
 
 .secF button {
   outline-style: none;

@@ -44,18 +44,18 @@
 /*TABLET 800 PX*/
 @media (min-width: 50em) {
     .container {width: 45em;} /*720px*/
-    .span-1-d {width: 8.333%;}
-    .span-2-d {width: 16.666%;}
-    .span-3-d {width: 25%;}
-    .span-4-d {width: 33.333%;}
-    .span-5-d {width: 41.666%;}
-    .span-6-d {width: 50%;}
-    .span-7-d {width: 58.333%;}
-    .span-8-d {width: 66.666%;}
-    .span-9-d {width: 75%;}
-    .span-10-d {width: 83.333%;}
-    .span-11-d {width: 91.666%;}
-    .span-12-d {width: 100%;}
+    .span-1-t {width: 8.333%;}
+    .span-2-t {width: 16.666%;}
+    .span-3-t {width: 25%;}
+    .span-4-t {width: 33.333%;}
+    .span-5-t {width: 41.666%;}
+    .span-6-t {width: 50%;}
+    .span-7-t {width: 58.333%;}
+    .span-8-t {width: 66.666%;}
+    .span-9-t {width: 75%;}
+    .span-10-t {width: 83.333%;}
+    .span-11-t {width: 91.666%;}
+    .span-12-t {width: 100%;}
 }
 
 /*DESKTOP 1200 PX*/

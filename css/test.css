@@ -1,4 +1,4 @@
-.imgArtThumb {
+/*.imgArtThumb {
     max-width: 100%;
     height: auto;
 }
@@ -6,7 +6,6 @@
     float: left;
     display: inline-block;
     width: 100%;
-    /*padding-right: 2%;*/
     height: 30px;
     background: green;
 }
@@ -35,23 +34,19 @@
     text-align: left;
     height: 95%;
     width: 90%;
-    /*padding: 2%;*/
     margin: 5%;
     border: purple solid 1px;
     overflow: hidden;
 }
 .articleTeaserBoxColor {
-    /*box-shadow: inset 0 -1px 1px rgba(0, 0, 0, 0.5), inset 0 1px 1px rgba(238, 146, 85, 1);*/
-    /*border: red solid 1px;*/
+    box-shadow: inset 0 -1px 1px rgba(0, 0, 0, 0.5), inset 0 1px 1px rgba(238, 146, 85, 1);
     -webkit-box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.3);
     -moz-box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.3);
     box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.3);
-    /*margin: 100px;*/
-    /*box-sizing: border-box;*/
     padding: 10px;
     margin: 10px;
 }
-/*  COLUMN SETUP  */
+
  .col {
     display: table-cell;
     vertical-align: top;
@@ -63,7 +58,7 @@
 .span_1_of_3 {
     width: 30%;
 }
-/*  GROUPING  */
+
  .group:before, .group:after {
     content:"";
     display: table;
@@ -73,16 +68,38 @@
 }
 .group {
     zoom: 1;
-    /* For IE 6/7 */
 }
-/*  SECTIONS  */
  .section {
     clear: both;
     padding: 0px;
     margin: 0px;
-    /*border: black 1px solid;*/
     height: auto;
     overflow: auto;
     text-align: center;
     width: 100%;
+}*/
+
+
+
+#larg_container {
+    background: #999;
+    width: 80%;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.bio_img_hori {
+    background: blue;
+    width: 33.333%;
+    height: 100%;
+    display: inline-block;
+    float: left;
+}
+
+.bio_text_hori {
+    background: red;
+    height: 100%;
+    width: 66.666%;
+    display: inline-block;
+
 }

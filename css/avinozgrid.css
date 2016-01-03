@@ -59,7 +59,7 @@
 }
 
 /*DESKTOP 1200 PX*/
-@media (min-width: 75em) {
+@media (min-width: 60em) {
     .container {width: 64em;}  /*1024px*/
     .span-1-d {width: 8.333%;}
     .span-2-d {width: 16.666%;}

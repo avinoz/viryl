@@ -1,4 +1,4 @@
-.imgArtThumb {
+/*.imgArtThumb {
     max-width: 100%;
     height: auto;
 }
@@ -10,7 +10,6 @@
     background: green;
 }
 .textHolder {
-    /*background: blue;*/
     float: left;
     display: inline-block;
     width: 100%;
@@ -31,13 +30,10 @@
     padding-bottom: 2%;
 }
 .test {
-    /*border: red solid 1px;*/
-    /*background: purple;*/
     width: 99%;
     height: 99%;
     position: absolute;
     margin: .5%;
-    /*box-sizing: border-box;*/
          -webkit-box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.3);
        -moz-box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.3);
        box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.3);
@@ -48,10 +44,6 @@
     width: 100%;
     overflow: hidden;
     border: red solid 1px;
-
- /*   -webkit-box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.3);
-    -moz-box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.3);
-    box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.3);*/
 }
 .articleTeaserBoxColor {
     border: blue solid 1px;
@@ -90,28 +82,72 @@
     text-align: center;
     width: 100%;
 }
+*/
 
+.bio_section {
+    width: 60%;
+    margin: 0 auto;
 
+}
 
 #larg_container {
-    background: #999;
-    width: 80%;
-    height: 300px;
-    margin: 0 auto;
+    background: #fafafa;
+    margin: 5px;
+    position: relative;
+    -webkit-box-shadow: -1px 1px 2px 0px rgba(0,0,0,0.6);
+    -moz-box-shadow: -1px 1px 2px 0px rgba(0,0,0,0.6);
+    box-shadow: -1px 1px 2px 0px rgba(0,0,0,0.6);
 }
 
 .bio_img_hori {
-    background: blue;
+    background: #e0e0e0;
     width: 33.333%;
     height: 100%;
     display: inline-block;
     float: left;
+    position: absolute;
+    overflow: hidden;
+}
+
+#personA {
+    width: 100%;
+    height: 100%;
+    padding-left: 3vw;
+    background: url("../resources/imgs/personA.png");
+    background-size: 100%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+#personB {
+    width: 100%;
+    height: 100%;
+    padding-left: 3vw;
+    background: url("../resources/imgs/personB.png");
+    background-size: 100%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.imgdiv img {
+    width: 100%;
+    position: relative;
+    bottom: 0;
 }
 
 .bio_text_hori {
-    background: red;
-    height: 100%;
+    margin-left: 33.333%;
     width: 66.666%;
     display: inline-block;
+}
 
+.bio_title {
+  padding: 25px 25px 0 35px;
+  width: 100%;
+}
+
+.bio_desc {
+  background: #fafafa;
+  font-size: .8em;
+  padding: 0 35px 35px 35px;
 }

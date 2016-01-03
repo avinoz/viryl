@@ -19,6 +19,17 @@
     text-align: left;
     width: 90%;
     margin: 0vh 0 7vh 5vw;
+    font-size: .9em;
+    font-weight: 300;
+  }
+
+  #machine {
+    margin-top: 15vh;
+  }
+
+  /*SEC A*/
+  #opening_pitch {
+    display: none;
   }
 
   /*SEC F*/
@@ -29,6 +40,15 @@
     padding-bottom: 1vh;
     margin: 0;
   }
+
+.bio_img_hori {
+  display: none;
+}
+
+.bio_text_hori {
+  width: 100%;
+  margin: 0;
+}
 
   /*FOOTER*/
   footer p {

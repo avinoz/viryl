@@ -13,6 +13,8 @@
   background: #e0e0e0;
 }
 
+
+
 /*HEADER*/
 header {
   position: fixed;
@@ -78,18 +80,16 @@ header button:active {
   background: #555;
 }
 
-/*SECA*/
 
+
+
+/*SECA*/
 
 #opening_pitch {
   position: absolute;
   top: 40vh;
   /*left: 41.5vw;*/
 }
-
-/*#opening_pitch h2 {
-  background: black;
-}*/
 
 .banner {
   height: 78vh;
@@ -132,6 +132,8 @@ header button:active {
 }
 
 
+
+
 /*SECTION B*/
 .secB {
   background: url("../resources/imgs/axon2.jpg");
@@ -148,26 +150,10 @@ header button:active {
   width: 50%;
   padding-bottom: 1vh;
   transition: all .1s ease-in-out;
-/*  -webkit-transition: all 500ms cubic-bezier(0.430, 0.240, 0.065, 0.995);
-  -moz-transition: all 500ms cubic-bezier(0.430, 0.240, 0.065, 0.995);
-  -o-transition: all 500ms cubic-bezier(0.430, 0.240, 0.065, 0.995);
-  transition: all 500ms cubic-bezier(0.430, 0.240, 0.065, 0.995);*/
 }
 
 .secB img:hover {
-/*  -ms-transform: translate(0px,-15px);
-  -webkit-transform: translate(0px,-15px);
-  transform: translate(0px,-15px);*/
-  /*-webkit-filter: invert(100%);*/
-  /*filter: invert(100%);*/
   transform: scale(1.08,1.08);
-}
-
-.secD {
-  background: url("../resources/imgs/testB.jpg");
-  background-size: cover;
-  background-position: center;
-  height: 700px;
 }
 
 .secB_cont{
@@ -187,6 +173,7 @@ header button:active {
   height: 100px;
   width: 100%;
 }
+
 
 
 
@@ -219,7 +206,7 @@ header button:active {
   width: auto;
   position: absolute;
   right: 0;
-  /*top: -50px;*/
+  top: -50px;
 }
 
 
@@ -268,6 +255,8 @@ header button:active {
 
 
 
+
+
 /*SECTION F*/
 
 .secF {
@@ -306,24 +295,23 @@ header button:active {
 }
 
 .bio_img_hori {
-    background: #e0e0e0;
-    width: 33.333%;
-    height: 100%;
-    display: inline-block;
-    float: left;
-    position: absolute;
-    overflow: hidden;
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
-    transition: all .2s ease;
-  }
+  background: #e0e0e0;
+  width: 33.333%;
+  height: 100%;
+  display: inline-block;
+  float: left;
+  position: absolute;
+  overflow: hidden;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  transition: all .2s ease;
+}
 
-  .bio_img_hori:hover {
-    background: #ededed;
-    -webkit-filter: grayscale(0%);
-    filter: grayscale(0%);
-  }
-
+.bio_img_hori:hover {
+  background: #ededed;
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
 
 #personA {
     width: 100%;
@@ -434,8 +422,6 @@ header button:active {
   margin: 0;
   color: #e0e0e0;
 }
-
-
 
 
 

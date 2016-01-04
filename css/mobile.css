@@ -29,8 +29,39 @@
   }
 
   /*SEC A*/
-  #opening_pitch {
-    display: none;
+  .opening_pitch {
+    padding: 18vh 0 6vh 2vw;
+    /*border: red 1px solid;*/
+  }
+
+  .opening_pitch h2 {
+    margin-left: 4.5vw;
+  }
+
+  /*SEC B*/
+
+  .secB_cont{
+    width: 45vw;
+    font-size: .6em;
+  }
+
+  /*SEC C*/
+
+  #secC_img {
+    height: 45vh;
+    width: auto;
+    position: absolute;
+  }
+
+
+  /*SEC D*/
+
+  #secD_img {
+    height: 45vh;
+    width: auto;
+    position: absolute;
+    right: 0;
+    top: -50px;
   }
 
   /*SEC F*/

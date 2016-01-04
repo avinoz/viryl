@@ -7,13 +7,20 @@
   padding-bottom: 12vh;
 }
 
-#bufferB {
-  height: 200px;
+#buffer {
+  height: 100px;
   width: 100%;
-  background: #e0e0e0;
 }
 
-
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+    width: 100%;
+}
 
 /*HEADER*/
 header {
@@ -85,48 +92,45 @@ header button:active {
 
 /*SECA*/
 
-#opening_pitch {
-  position: relative;
-  top: 30vh;
-  padding-left: 2vw;
-  background: rgba(0,0,0,0.5);
-}
-
 .banner {
-  /*height: 78vh;*/
-  height: 96vh;
   width: 100vw;
-  background: url("../resources/imgs/header_bg.jpg");
+  background: url("../resources/imgs/header_bg2.jpg");
   background-size: cover;
-  background-position: bottom;
 }
 
 #machine {
   width: 100%;
-  min-width: 500px;
   margin-top: 20vh;
+  min-width: 500px;
 }
 
-#opening_pitch h2 {
+.opening_pitch {
+  padding: 45vh 0 6vh 2vw;
+  /*border: red 1px solid;*/
+}
+
+.opening_pitch h2 {
   font-family: "Roboto", Helvetica, sans-serif;
   font-weight: 100;
   font-size: 4em;
   letter-spacing: 5px;
+  line-height: 80px;
   text-align: left;
   color: #669933;
 }
 
-#opening_pitch h3 {
+.opening_pitch span {
+  background-color: rgba(0,0,0,0.5);
+}
+
+.opening_pitch h3 {
   font-family: "Roboto", Helvetica, sans-serif;
   font-weight: 100;
   letter-spacing: 2px;
+  padding-top: 5vh;
   text-align: left;
-  font-size: .9em;
-  /*width: 75%;*/
-  /*margin: 65vh 0 7vh 5vw;*/
-  /*color: black;*/
-  color: #fafafa;
-  /*color: #669933;*/
+  font-size: 1em;
+  color: #c7c7c7;
 }
 
 
@@ -187,7 +191,7 @@ header button:active {
 
 
 #secC_img {
-  height: 700px;
+  height: 75vh;
   width: auto;
   position: absolute;
 }
@@ -196,7 +200,7 @@ header button:active {
 /*SECTION D*/
 .secD {
   position: relative;
-  height: 78vh;
+  height: 75vh;
   background: #f5f5f5;
   -webkit-box-shadow: -1px .5px 3px 1px rgba(0,0,0,0.5);
   -moz-box-shadow: -1px .5px 3px 1px rgba(0,0,0,0.5);
@@ -204,7 +208,7 @@ header button:active {
 }
 
 #secD_img {
-  height: 700px;
+  height: 75vh;
   width: auto;
   position: absolute;
   right: 0;
@@ -288,6 +292,7 @@ header button:active {
 }
 
 #larg_container {
+    overflow: hidden;
     background: #fafafa;
     margin: 3px;
     position: relative;
@@ -316,75 +321,75 @@ header button:active {
 }
 
 #personA {
-    width: 100%;
-    height: 100%;
-    padding-left: 3vw;
-    background: url("../resources/imgs/personA.png");
-    background-size: 100%;
-    background-position: bottom;
-    background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  padding-left: 3vw;
+  background: url("../resources/imgs/personA.png");
+  background-size: 100%;
+  background-position: bottom;
+  background-repeat: no-repeat;
 }
 
 #personB {
-    width: 100%;
-    height: 100%;
-    padding-left: 3vw;
-    background: url("../resources/imgs/personB.png");
-    background-size: 100%;
-    background-position: bottom;
-    background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  padding-left: 3vw;
+  background: url("../resources/imgs/personB.png");
+  background-size: 100%;
+  background-position: bottom;
+  background-repeat: no-repeat;
 }
 
 #personC {
-    width: 100%;
-    height: 100%;
-    padding-left: 3vw;
-    background: url("../resources/imgs/personC.png");
-    background-size: 100%;
-    background-position: bottom;
-    background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  padding-left: 3vw;
+  background: url("../resources/imgs/personC.png");
+  background-size: 100%;
+  background-position: bottom;
+  background-repeat: no-repeat;
 }
 
 #personD {
-    width: 100%;
-    height: 100%;
-    padding-left: 3vw;
-    background: url("../resources/imgs/personD.png");
-    background-size: 100%;
-    background-position: bottom;
-    background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  padding-left: 3vw;
+  background: url("../resources/imgs/personD.png");
+  background-size: 100%;
+  background-position: bottom;
+  background-repeat: no-repeat;
 }
 
 #personE {
-    width: 100%;
-    height: 100%;
-    padding-left: 3vw;
-    background: url("../resources/imgs/personE.png");
-    background-size: 100%;
-    background-position: bottom;
-    background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  padding-left: 3vw;
+  background: url("../resources/imgs/personE.png");
+  background-size: 100%;
+  background-position: bottom;
+  background-repeat: no-repeat;
 }
 
 #personF {
-    width: 100%;
-    height: 100%;
-    padding-left: 3vw;
-    background: url("../resources/imgs/personF.png");
-    background-size: 100%;
-    background-position: bottom;
-    background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  padding-left: 3vw;
+  background: url("../resources/imgs/personF.png");
+  background-size: 100%;
+  background-position: bottom;
+  background-repeat: no-repeat;
 }
 
 .imgdiv img {
-    width: 100%;
-    position: relative;
-    bottom: 0;
+  width: 100%;
+  position: relative;
+  bottom: 0;
 }
 
 .bio_text_hori {
-    margin-left: 33.333%;
-    width: 66.666%;
-    display: inline-block;
+  margin-left: 33.333%;
+  width: 66.666%;
+  display: inline-block;
 }
 
 .bio_title {

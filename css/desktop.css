@@ -96,8 +96,6 @@ header button:active {
 }
 
 #machine {
-  /*height: 95%;*/
-  /*width: auto;*/
   width: 100%;
   min-width: 500px;
   margin-top: 20vh;
@@ -174,9 +172,9 @@ header button:active {
 
 .secB h4 {
   font-family: "Roboto",Helvetica, sans-serif;
-  font-size: 1.1em;
-  font-weight: 400;
-  margin-top: -3vh;
+  font-size: 1em;
+  font-weight: 300;
+  margin-top: -2vh;
   color: black;
 }
 
@@ -235,7 +233,7 @@ header button:active {
 }
 
 #linkedin_bio:hover {
-  opacity: 1;
+  opacity: .5;
 }
 
 #larg_container {
@@ -352,14 +350,30 @@ header button:active {
 .secF button {
   outline-style: none;
   border: none;
-  background: white;
+  height: 60px;
+  background: rgba(255,255,255,0.2);
   margin-left: 3px;
-  color: #888;
+  color: white;
   width: 33%;
-  font-size: 1.8em;
+  font-size: 1.5em;
   font-weight: 100;
+  transition: background .1s ease-in-out;
+  -moz-transition: background .1s ease-in-out;
+  -webkit-transition: background .1s ease-in-out;
 }
 
+.secF button:hover {
+  background: rgba(255,255,255,0.3);
+}
+
+.secF h1 {
+  font-family: "Roboto", Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: 5em;
+  padding-bottom: 1vh;
+  margin: 0;
+  color: #e0e0e0;
+}
 
 
 
@@ -497,6 +511,72 @@ footer span:hover {
   padding: 0 2vh 0 0;
 }
 
+
+
+
+/*PARTNER SECTION*/
+
+.partners {
+  background: #555;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  transition: all .2s ease;
+}
+
+.partners:hover {
+  background: #ededed;
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
+
+#partnerA {
+  margin: 60px 80px 60px 0;
+  height: 60px;
+  float: right;
+  cursor: pointer;
+}
+
+#partnerA:hover {
+  -webkit-filter: opacity(.8);
+  filter: opacity(.8);
+  transition: all .2s ease;
+}
+
+#partnerA:active {
+  -webkit-filter: opacity(1);
+  filter: opacity(1);
+}
+
+#partnerB {
+  margin: 60px 0 60px 0;
+  height: 60px;
+  float: right;
+  cursor: pointer;
+}
+
+#partnerB:hover {
+  -webkit-filter: opacity(.8);
+  filter: opacity(.8);
+  transition: all .2s ease;
+}
+
+#partnerB:active {
+  -webkit-filter: opacity(1);
+  filter: opacity(1);
+}
+
+#partner_text {
+  width: 35%;
+  float: left;
+  padding: 4vh 0 4vh 0;
+  color: #999;
+  font-size: .8em;
+}
+
+
+
+
+
 /*TEST SECTION*/
 
 #testsect {
@@ -542,8 +622,8 @@ footer span:hover {
   font-size: .8em;
   border-radius: 25px;
   margin: -10px 0 0 -10px;
-
 }
+
 .test_div {
   position: relative;
   height: 700px;

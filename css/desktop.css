@@ -136,7 +136,7 @@ header button:active {
 
 /*SECTION B*/
 .secB {
-  background: url("../resources/imgs/axon2.jpg");
+  background: url("../resources/imgs/axon2b.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -182,7 +182,7 @@ header button:active {
 .secC {
   position: relative;
   height: 80vh;
-  background: #e8e8e8;
+  background: #fafafa;
 }
 
 
@@ -197,7 +197,7 @@ header button:active {
 .secD {
   position: relative;
   height: 75vh;
-  background: #e8e8e8;
+  background: #fafafa;
   /*border: red solid 1px;*/
 }
 

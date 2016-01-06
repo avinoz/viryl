@@ -30,7 +30,7 @@ header {
   -webkit-box-shadow: -1px 1px 2px 0px rgba(0,0,0,0.6);
   -moz-box-shadow: -1px 1px 2px 0px rgba(0,0,0,0.6);
   box-shadow: -1px 1px 2px 0px rgba(0,0,0,0.6);
-  z-index: 3;
+  z-index: 10;
 }
 
 #header_cont {
@@ -110,8 +110,8 @@ header button:active {
 }
 
 .opening_pitch h2 {
-  font-family: "Roboto", Helvetica, sans-serif;
-  font-weight: 100;
+  font-family: "Oxygen", Helvetica, sans-serif;
+  font-weight: 300;
   font-size: 4em;
   letter-spacing: 5px;
   line-height: 80px;
@@ -137,7 +137,7 @@ header button:active {
 
 /*SECTION B*/
 .secB {
-  background: url("../resources/imgs/axon2b.jpg");
+  background: url("../resources/imgs/axon2c.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -266,7 +266,7 @@ header button:active {
 /*SECTION F*/
 
 .secF {
-  background: url("../resources/imgs/axon2.jpg");
+  background: url("../resources/imgs/bio_bg.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -289,6 +289,17 @@ header button:active {
 
 #linkedin_bio:hover {
   opacity: .5;
+}
+
+#linkedin_bio_non_active {
+  width: 25px;
+  margin: 10px;
+  float: left;
+  opacity: .2;
+  transition: opacity .1s ease-in-out;
+  -moz-transition: opacity .1s ease-in-out;
+  -webkit-transition: opacity .1s ease-in-out;
+  z-index: 2;
 }
 
 #larg_container {
@@ -402,25 +413,6 @@ header button:active {
   padding: 0 35px 35px 35px;
 }
 
-.secF button {
-  outline-style: none;
-  border: none;
-  height: 60px;
-  background: rgba(255,255,255,0.2);
-  margin-left: 3px;
-  color: white;
-  width: 33%;
-  font-size: 1.5em;
-  font-weight: 100;
-  transition: background .1s ease-in-out;
-  -moz-transition: background .1s ease-in-out;
-  -webkit-transition: background .1s ease-in-out;
-}
-
-.secF button:hover {
-  background: rgba(255,255,255,0.3);
-}
-
 .secF h1 {
   font-family: "Roboto", Helvetica, sans-serif;
   font-weight: 100;
@@ -430,6 +422,24 @@ header button:active {
   color: #e0e0e0;
 }
 
+.join {
+  height: 50px;
+  width: 33%;
+  margin-left: 3px;
+  background: rgba(255,255,255,0.2);
+  text-align: center;
+  font-size: 1.3em;
+  line-height: 230%;
+  font-weight: 100;
+  transition: background .1s ease-in-out;
+  -moz-transition: background .1s ease-in-out;
+  -webkit-transition: background .1s ease-in-out;
+  color: white;
+}
+
+.join:hover {
+  background: rgba(255,255,255,0.3);
+}
 
 
 
@@ -458,7 +468,7 @@ footer span {
   margin-right: 20px;
 }
 
-a,a:link,a:visited {
+.footeroutter a, .footeroutter a:link, .footeroutter a:visited {
   cursor: pointer;
   color: #999;
   text-decoration: none;
@@ -467,7 +477,7 @@ a,a:link,a:visited {
   -webkit-transition: color .1s ease-in-out;
 }
 
-a:hover {
+.footeroutter a:hover {
   color: white;
 }
 
@@ -569,29 +579,28 @@ footer span:hover {
 
 /*PARTNER SECTION*/
 
-.partners {
+/*.partners {
   background: #555;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
   transition: all .2s ease;
-}
+}*/
 
-.partners:hover {
+.partners {
   background: #ededed;
-  -webkit-filter: grayscale(0%);
-  filter: grayscale(0%);
 }
 
 #partnerA {
-  margin: 60px 80px 60px 0;
+  margin: 7.5vh 3vw 7.5vh 0;
   height: 60px;
-  float: right;
+  float: left;
   cursor: pointer;
+  transition: all .2s ease;
 }
 
 #partnerA:hover {
-  -webkit-filter: opacity(.8);
-  filter: opacity(.8);
+  -webkit-filter: opacity(.7);
+  filter: opacity(.7);
   transition: all .2s ease;
 }
 
@@ -601,15 +610,16 @@ footer span:hover {
 }
 
 #partnerB {
-  margin: 60px 0 60px 0;
+  margin: 7.5vh 0 7.5vh 0;
   height: 60px;
-  float: right;
+  float: left;
   cursor: pointer;
+  transition: all .2s ease;
 }
 
 #partnerB:hover {
-  -webkit-filter: opacity(.8);
-  filter: opacity(.8);
+  -webkit-filter: opacity(.7);
+  filter: opacity(.7);
   transition: all .2s ease;
 }
 
@@ -619,13 +629,72 @@ footer span:hover {
 }
 
 #partner_text {
-  width: 35%;
+  /*width: 35%;*/
   float: left;
-  padding: 4vh 0 4vh 0;
+  padding: 9vh 3vw 1vh 0;
   color: #999;
   font-size: .8em;
 }
 
 
+/*MODAL*/
 
 
+.modalDialog {
+  position: fixed;
+  font-family: "Raleway", Helvetica, sans-serif;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0,0,0,0.8);
+  z-index: 6;
+  opacity:0;
+  -webkit-transition: opacity 200ms ease-in;
+  -moz-transition: opacity 200ms ease-in;
+  transition: opacity 200ms ease-in;
+  pointer-events: none;
+}
+
+.modalDialog:target {
+  opacity:1;
+  pointer-events: auto;
+}
+
+.modalDialog > div {
+  width: 80vw;
+  height: 70vh;
+  position: relative;
+  margin: 15vh auto;
+  padding: 50px 20px 13px 20px;
+  background: #fff;
+  overflow-y: auto;
+  background: -moz-linear-gradient(#fff, #999);
+  background: -webkit-linear-gradient(#fff, #999);
+  background: -o-linear-gradient(#fff, #999);
+}
+
+.close {
+  background: #606061;
+  color: #FFFFFF;
+  position: absolute;
+  text-align: center;
+  right: calc(15vh + 12px);
+  top: calc(15vh - 12px);
+  z-index: 10;
+  line-height: 30px;
+  width: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  padding-left: 2px;
+
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  -moz-box-shadow: 1px 1px 3px #000;
+  -webkit-box-shadow: 1px 1px 3px #000;
+  box-shadow: 1px 1px 3px #000;
+  transition: all .1s ease-in-out;
+}
+
+.close:hover { background: #669933; }

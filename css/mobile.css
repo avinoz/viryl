@@ -7,7 +7,39 @@
   /*HEADER*/
   #header_btn_right {
     display: none;
+    height: 0px;
   }
+
+  #header_logo {
+    height: auto;
+    width: 70vw;
+
+    cursor: pointer;
+  }
+
+  #header_btn_left {
+    position: absolute;
+    left: 0;
+    display: inline-block;
+    height: 33px;
+    margin: 1.5vh 15vw 0 15vw;
+  }
+
+  #header_cont {
+    width: 100vw;
+    padding: 0px;
+    min-height: 60px;
+  }
+
+  header {
+    position: fixed;
+    top: -50px;
+    z-index: 2;
+    z-index: 10;
+  }
+
+/*SECTION A*/
+
 
   #bufferA {
     height: 0;
@@ -143,6 +175,42 @@
   }
 
   .footer_contB {
-    display: none;
+    /*display: none;*/
   }
+
+
+  /*PARTNERS*/
+
+  #partner_text {
+    /*width: 35%;*/
+    float: left;
+    padding: 3vh 3vw 0 0;
+    margin: 3vh 0 0 5vw;
+    color: #999;
+    font-size: .8em;
+  }
+
+  #partnerA {
+    margin: 1vh 5vw 0 5vw;
+    height: 8vh;
+    padding-bottom: 0;
+    /*width: 30vw;*/
+    float: left;
+    cursor: pointer;
+    transition: all .2s ease;
+  }
+
+  #partnerB {
+    margin: 0vh 5vw 0 5vw;
+    padding-bottom: 0;
+    height: 8vh;
+    /*width: 30vw;*/
+    float: left;
+    cursor: pointer;
+    transition: all .2s ease;
+  }
+
+
 }
+
+

@@ -7,7 +7,7 @@
   padding-bottom: 12vh;
 }
 
-#buffer {
+.buffer {
   height: 100px;
   width: 100%;
 }
@@ -568,11 +568,11 @@ footer span:hover {
   background-position:right bottom;
 }
 
-.footer_contB p {
+/*.footer_contB p {
   font-size: .8em;
   text-align: right;
   padding: 0 2vh 0 0;
-}
+}*/
 
 
 
@@ -642,7 +642,6 @@ footer span:hover {
 
 .modalDialog {
   position: fixed;
-  font-family: "Raleway", Helvetica, sans-serif;
   top: 0;
   right: 0;
   bottom: 0;
@@ -666,12 +665,28 @@ footer span:hover {
   height: 70vh;
   position: relative;
   margin: 15vh auto;
-  padding: 50px 20px 13px 20px;
+  padding: 10vh 10vw 13px 10vw;
   background: #fff;
   overflow-y: auto;
   background: -moz-linear-gradient(#fff, #999);
   background: -webkit-linear-gradient(#fff, #999);
   background: -o-linear-gradient(#fff, #999);
+}
+
+p {
+  font-weight: 300;
+}
+
+.modalDialog h2 {
+  font-family: "Raleway", Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: 3em;
+}
+
+.modalDialog h3 {
+  font-family: "Raleway", Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 1.5em;
 }
 
 .close {
@@ -698,3 +713,32 @@ footer span:hover {
 }
 
 .close:hover { background: #669933; }
+
+.apply_cont {
+background: red;
+width: 100%;
+position: relative;
+}
+
+.apply {
+  height: 50px;
+  width: 150px;
+  position: absolute;
+  left: 0px;
+
+  background: #669933;
+  text-align: center;
+  font-size: 1em;
+  line-height: 3em;
+  font-weight: 100;
+  transition: background .1s ease-in-out;
+  -moz-transition: background .1s ease-in-out;
+  -webkit-transition: background .1s ease-in-out;
+  color: white;
+  cursor: pointer;
+  margin: 3vh 0 10vh 0;
+}
+
+.apply:hover {
+  background: #9bb337;
+}

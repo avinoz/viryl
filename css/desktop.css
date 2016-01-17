@@ -8,8 +8,9 @@
 }
 
 .buffer {
-  height: 100px;
+  height: 80px;
   width: 100%;
+  /*background: red;*/
 }
 
 hr {
@@ -94,7 +95,7 @@ header button:active {
 
 .banner {
   width: 100vw;
-  background: url("../resources/imgs/header_bg2.jpg");
+  background: url("../resources/imgs/header.jpg");
   background-size: cover;
 }
 
@@ -105,7 +106,7 @@ header button:active {
 }
 
 .opening_pitch {
-  padding: 45vh 0 6vh 2vw;
+  padding: 40vh 0 5vh 2vw;
   /*border: red 1px solid;*/
 }
 
@@ -116,28 +117,39 @@ header button:active {
   letter-spacing: 5px;
   line-height: 80px;
   text-align: left;
-  color: #669933;
+  color: black;
 }
 
 .opening_pitch span {
-  background-color: rgba(0,0,0,0.5);
+  /*background-color: rgba(255,255,255,0.5);*/
 }
 
 .opening_pitch h3 {
   font-family: "Roboto", Helvetica, sans-serif;
-  font-weight: 100;
+  font-weight: 300;
   letter-spacing: 2px;
-  padding-top: 5vh;
+  padding: 3vh 0vw 0 0;
   text-align: left;
   font-size: 1em;
-  color: #c7c7c7;
+  /*color: #c7c7c7;*/
+  color: black;
 }
 
+#intro_email {
+  font-weight: 400;
+  /*color: #669933;*/
+  /*background-color: rgba(0,0,0,0.5);*/
+}
+
+#intro_email:hover {
+  color: #9bb337;
+}
 
 
 /*SECTION B*/
 .secB {
-  background: url("../resources/imgs/axon2c.jpg");
+  /*background: url("../resources/imgs/axon2c.jpg");*/
+  background: #fafafa;
   background-size: cover;
   background-position: center;
 }
@@ -169,11 +181,6 @@ header button:active {
   color: black;
 }
 
-#bufferB {
-  background: none;
-  height: 100px;
-  width: 100%;
-}
 
 
 
@@ -638,6 +645,12 @@ footer span:hover {
 
 
 /*MODAL*/
+
+
+.join_opening {
+  width: 6  0%;
+
+}
 
 
 .modalDialog {

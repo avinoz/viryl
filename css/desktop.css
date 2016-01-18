@@ -646,21 +646,28 @@ footer span:hover {
 
 /*MODAL*/
 
-
 .join_opening {
+  width: 100%;
+  height: 30vh;
+  /*border: blue 1px solid;*/
+}
+
+.join_openingA {
   width: 60%;
   display: inline-block;
   float: left;
-  height: 30vh;
+  height: 20vh;
   padding-top: 1vh;
 }
 
 .join_openingB {
-  width: 40%;
+  width: 35%;
   display: inline-block;
   float: left;
-  height: 30vh;
-  padding: 0 0 0 5vw;
+  height: 20vh;
+  padding-left: 3vw;
+  margin-left: 5%;
+  border-left: 1px gray solid;
 }
 
 .modalDialog {
@@ -678,6 +685,10 @@ footer span:hover {
   -moz-transition: opacity 200ms ease-in;
   transition: opacity 200ms ease-in;
   pointer-events: none;
+}
+
+.modalDialog hr {
+  background: gray;
 }
 
 .modalDialog:target {

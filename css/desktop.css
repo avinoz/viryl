@@ -648,12 +648,24 @@ footer span:hover {
 
 
 .join_opening {
-  width: 6  0%;
-
+  width: 60%;
+  display: inline-block;
+  float: left;
+  height: 30vh;
+  padding-top: 1vh;
 }
 
+.join_openingB {
+  width: 40%;
+  display: inline-block;
+  float: left;
+  height: 30vh;
+  padding: 0 0 0 5vw;
+}
 
 .modalDialog {
+  color: #383838;
+  text-align: left;
   position: fixed;
   top: 0;
   right: 0;
@@ -686,20 +698,24 @@ footer span:hover {
   background: -o-linear-gradient(#fff, #999);
 }
 
-p {
+.modalDialog p {
   font-weight: 300;
+  font-size: .9em;
+  margin: 0;
 }
 
 .modalDialog h2 {
   font-family: "Raleway", Helvetica, sans-serif;
   font-weight: 100;
   font-size: 3em;
+  margin: 8vh 0 0 0;
 }
 
 .modalDialog h3 {
   font-family: "Raleway", Helvetica, sans-serif;
   font-weight: 300;
   font-size: 1.5em;
+  margin: 4vh 0 2vh 0;
 }
 
 .close {
@@ -754,4 +770,10 @@ position: relative;
 
 .apply:hover {
   background: #9bb337;
+}
+
+.join_openingB h3{
+  margin: 0;
+  padding: 0;
+  text-align: left;
 }

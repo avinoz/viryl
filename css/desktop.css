@@ -95,6 +95,7 @@ header button:active {
 
 .banner {
   width: 100vw;
+  height: 97vh;
   background: url("../resources/imgs/header.jpg");
   background-size: cover;
 }
@@ -148,8 +149,8 @@ header button:active {
 
 /*SECTION B*/
 .secB {
-  /*background: url("../resources/imgs/axon2c.jpg");*/
-  background: #fafafa;
+  background: url("../resources/imgs/testbgblk.jpg");
+  /*background: #fafafa;*/
   background-size: cover;
   background-position: center;
 }
@@ -157,6 +158,7 @@ header button:active {
 .secB_cont{
   margin-top: 7vh;
   text-align: center;
+  /*-webkit-filter: invert(100%);*/
 }
 
 .secB img {
@@ -413,11 +415,17 @@ header button:active {
 .bio_title {
   padding: 25px 25px 0 35px;
   width: 100%;
+  background:#f3f3f3;
+}
+
+.bio_title h4{
+  color: #669933;
+  padding: 0 0 2vh 0;
 }
 
 .bio_desc {
   font-size: .8em;
-  padding: 0 35px 35px 35px;
+  padding: 5px 35px 35px 35px;
 }
 
 .secF h1 {
@@ -594,7 +602,10 @@ footer span:hover {
 }*/
 
 .partners {
-  background: #ededed;
+  /*background: #ededed;*/
+  background: url("../resources/imgs/demoshot2.jpg");
+  background-size: cover;
+  height: 110vh;
 }
 
 #partnerA {

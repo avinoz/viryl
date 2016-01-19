@@ -102,8 +102,12 @@ header button:active {
 
 #machine {
   width: 100%;
-  margin-top: 20vh;
+  margin: 10vh 0 15vh 0;
   min-width: 500px;
+}
+
+#machine:hover {
+  transform: scale(1,1);
 }
 
 .opening_pitch {
@@ -118,7 +122,7 @@ header button:active {
   letter-spacing: 5px;
   line-height: 80px;
   text-align: left;
-  color: black;
+  color: white;
 }
 
 .opening_pitch span {
@@ -127,13 +131,12 @@ header button:active {
 
 .opening_pitch h3 {
   font-family: "Roboto", Helvetica, sans-serif;
-  font-weight: 300;
+  font-weight: 200;
   letter-spacing: 2px;
   padding: 3vh 0vw 0 0;
   text-align: left;
   font-size: 1em;
-  /*color: #c7c7c7;*/
-  color: black;
+  color: #c7c7c7;
 }
 
 #intro_email {
@@ -149,7 +152,7 @@ header button:active {
 
 /*SECTION B*/
 .secB {
-  background: url("../resources/imgs/testbgblk.jpg");
+  background: url("../resources/imgs/ray.jpg");
   /*background: #fafafa;*/
   background-size: cover;
   background-position: center;

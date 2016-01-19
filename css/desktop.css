@@ -93,13 +93,13 @@ header button:active {
 
 /*SECA*/
 
-.banner {
+/*.banner {
   width: 100vw;
   height: 97vh;
   background: url("../resources/imgs/header.jpg");
   background-size: cover;
 }
-
+*/
 #machine {
   width: 100%;
   margin: 10vh 0 15vh 0;
@@ -152,8 +152,7 @@ header button:active {
 
 /*SECTION B*/
 .secB {
-  background: url("../resources/imgs/mergedbg.jpg");
-  /*background: #fafafa;*/
+  background: url("../resources/imgs/topsec.jpg");
   background-size: cover;
   background-position: center;
 }

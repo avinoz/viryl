@@ -141,7 +141,7 @@ header button:active {
 
 #intro_email {
   font-weight: 400;
-  /*color: #669933;*/
+  color: #669933;
   /*background-color: rgba(0,0,0,0.5);*/
 }
 
@@ -606,7 +606,7 @@ footer span:hover {
 
 .partners {
   /*background: #ededed;*/
-  background: url("../resources/imgs/demoshot2.jpg");
+  background: url("../resources/imgs/demoshot.jpg");
   background-size: cover;
   height: 110vh;
 }

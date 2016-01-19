@@ -45,7 +45,13 @@
     height: 0;
   }
 
-  .secA h3 {
+  .secB {
+    background: url("../resources/imgs/mobilebg.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .secB h3 {
     font-family: "Roboto", Helvetica, sans-serif;
     letter-spacing: 2px;
     text-align: left;
@@ -56,13 +62,14 @@
   }
 
   #machine {
-    margin-top: 15vh;
+    margin-top: 3vh;
     min-width: 200px;
+    margin-bottom: 8vh;
   }
 
   /*SEC A*/
   .opening_pitch {
-    padding: 18vh 0 6vh 2vw;
+    padding: 0 0 6vh 2vw;
     /*border: red 1px solid;*/
   }
 

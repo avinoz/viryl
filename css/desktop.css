@@ -112,7 +112,6 @@ header button:active {
 
 .opening_pitch {
   padding: 40vh 0 5vh 2vw;
-  /*border: red 1px solid;*/
 }
 
 .opening_pitch h2 {
@@ -122,11 +121,7 @@ header button:active {
   letter-spacing: 5px;
   line-height: 80px;
   text-align: left;
-  color: white;
-}
-
-.opening_pitch span {
-  /*background-color: rgba(255,255,255,0.5);*/
+  color: #fafafa;
 }
 
 .opening_pitch h3 {
@@ -152,7 +147,7 @@ header button:active {
 
 /*SECTION B*/
 .secB {
-  background: url("../resources/imgs/topsec.jpg");
+  background: url("../resources/imgs/asectionbg.jpg");
   background-size: cover;
   background-position: center;
 }

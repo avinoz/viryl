@@ -612,7 +612,8 @@ footer span:hover {
 .partners {
   /*background: url("../resources/imgs/teamblk.jpg");*/
   /*background-size: cover;*/
-  height: 23vh;
+  /*height: 23vh;*/
+  padding-bottom: 10px;
   background: #222;
 }
 

@@ -9,19 +9,123 @@ and (orientation : landscape) {
     background-position: center;
   }
 
+  #header_btn_right {
+    font-weight: 400;
+  }
+
+  #machine {
+    width: 80vw;
+    padding-left: 15vw;
+  }
+
+  .machine_cont {
+    margin: 0;
+    /*border: solid red 1px;*/
+  }
+
+  .opening_pitch {
+    margin: 0;
+    /*border: solid red 1px;*/
+    padding-top: 0;
+  }
+
+  .secB h2 {
+    color: black;
+    padding: 0 10vw 10vh 10vw;
+    margin-top: 0px;
+  }
+
   .secB h3 {
     font-weight: 400;
-    color: #e0e0e0;
+    color: black;
+    padding: 0 10vw 0vh 10vw;
+    line-height: 1.7em;
+    letter-spacing: 0.05em;
   }
 
   #intro_email {
     color: white;
+    line-height: 1.7em;
+    background: #669933;
+    padding: .6vw 1vw .6vw 1vw;
+    margin-left: 1vw;
+  }
+
+  .secB_cont {
+    width: 45vw;
   }
 
   .secB_cont h4 {
     font-weight: 400;
   }
 
+  .secF h1 {
+    font-family: "Roboto", Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 3em;
+    padding-bottom: 1vh;
+    margin: 0;
+  }
+
+  .secF button {
+    outline-style: none;
+    border: none;
+    background: rgba(255,255,255,0.2);
+    margin-left: 3px;
+    height: 50px;
+    color: white;
+    width: calc(100% - 6px);
+    font-size: 1.2em;
+    font-weight: 100;
+  }
+
+  .bio_img_hori {
+    display: none;
+  }
+
+  .bio_text_hori {
+    width: 100%;
+    margin: 0;
+  }
+
+  /*MODAL*/
+
+  .modalDialog {
+    z-index: 10;
+    font-size: .9em;
+  }
+
+  .modalDialog > div {
+    margin: 5vh 3vw 5vh 3vw;
+    width: 94vw;
+    height: 90vh;
+  }
+
+  .close {
+    right: calc(10vh + 12px);
+    top: calc(15vh - 12px);
+  }
+
+  #jobA {
+    /*border: 1px red solid;*/
+    margin-top: 50vh;
+  }
+
+  .join_openingA {
+    width: 100%;
+    height: auto;
+    float: none;
+  }
+
+  .join_openingB {
+    display: none;
+  }
+
+  .apply_cont{
+    margin: 10vh 0 30vh 0;
+    font-weight: 400;
+    font-size: 1.1em;
+  }
 }
 
 /*iphone5*/
@@ -72,14 +176,23 @@ and (orientation : portrait) {
 /*SECTION A*/
 
 
-  #bufferA {
+  #buffer {
     height: 0;
+    border: 1px solid red;
   }
 
   .secB {
     background: url("../resources/imgs/mobilebg.jpg");
     background-size: cover;
     background-position: center;
+  }
+
+  .secB_cont h4 {
+    font-weight: 400;
+  }
+
+  .secB h2 {
+    color: black;
   }
 
   .secB h3 {
@@ -89,13 +202,17 @@ and (orientation : portrait) {
     width: 90%;
     margin: 0vh 0 7vh 5vw;
     font-size: .9em;
-    font-weight: 300;
+    font-weight: 400;
+    color: black;
+    line-height: 1.7em;
+    letter-spacing: 0.05em;
   }
 
   #machine {
-    margin-top: 3vh;
+    margin: 5vh 5vw 5vh 5vw;
     min-width: 200px;
-    margin-bottom: 8vh;
+    width: 90vw;
+
   }
 
   /*SEC A*/
@@ -106,6 +223,13 @@ and (orientation : portrait) {
 
   .opening_pitch h2 {
     margin-left: 4.5vw;
+  }
+
+  #intro_email {
+    color: white;
+    line-height: 3em;
+    background: #669933;
+    padding: 2vw;
   }
 
   /*SEC B*/
@@ -194,7 +318,11 @@ and (orientation : portrait) {
     display: inline-block;
   }
 
-
+  /*TEAM PIC*/
+  .team_pic {
+    width: 100%;
+    height: 45vh;
+  }
 
   /*FOOTER*/
   footer p {
@@ -254,7 +382,6 @@ and (orientation : portrait) {
     transition: all .2s ease;
   }
 
-  /*JOIN*/
   .join {
     height: 50px;
     width: 98%;
@@ -262,22 +389,43 @@ and (orientation : portrait) {
     margin-top: 15px;
   }
 
-  .join_opening {
-    width: 100%;
-    height: 30vh;
+ /*MODAL*/
+
+
+  .close {
+    right: calc(10vh + 12px);
+    top: calc(15vh - 12px);
+  }
+
+  #jobA {
+    margin-top: 25vh;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  #jobB {
+    margin-top: 0vh;
   }
 
   .join_openingA {
     width: 100%;
+    height: auto;
+    float: none;
   }
 
-  .join_openingB{
+  .join_openingB {
     display: none;
   }
 
-
-
-  /*MODAL*/
+  .apply_cont {
+    font-weight: 400;
+    font-size: 1.3em;
+    height: 100px;
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    margin: 2vh 0 0vh 0;
+    }
 
   .modalDialog > div {
     width: 95vw;
@@ -320,11 +468,6 @@ and (orientation : portrait) {
     padding-top: 2vh;
     padding-bottom: 2vh;
     text-align: center;
-  }
-
-  .apply {
-    font-weight: 400;
-    font: 3em;
   }
 
   #openModal2 {

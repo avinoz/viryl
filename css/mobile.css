@@ -1,5 +1,5 @@
 @media only screen
-and (min-device-width : 375px)
+and (min-device-width : 320px)
 and (max-device-width : 667px)
 and (orientation : landscape) {
 
@@ -107,8 +107,12 @@ and (orientation : landscape) {
   }
 
   #jobA {
-    /*border: 1px red solid;*/
-    margin-top: 50vh;
+    /*margin-top: 30vh;*/
+  }
+
+ .join_opening{
+    display: inline-block;
+    height: auto;
   }
 
   .join_openingA {
@@ -178,7 +182,6 @@ and (orientation : portrait) {
 
   #buffer {
     height: 0;
-    border: 1px solid red;
   }
 
   .secB {
@@ -324,26 +327,6 @@ and (orientation : portrait) {
     height: 45vh;
   }
 
-  /*FOOTER*/
-  footer p {
-    font-size: .6em;
-    margin-bottom: 3vh;
-    text-align: left;
-  }
-
-  footer h2 {
-    display: none;
-  }
-
-  .footer_cont {
-    padding: 0;
-  }
-
-  .footer_contB {
-    /*display: none;*/
-  }
-
-
   /*PARTNERS*/
 
   .partners {
@@ -398,13 +381,19 @@ and (orientation : portrait) {
   }
 
   #jobA {
-    margin-top: 25vh;
+    /*margin-top: 30vh;*/
     margin-bottom: 0;
     padding-bottom: 0;
   }
 
   #jobB {
     margin-top: 0vh;
+  }
+
+
+  .join_opening{
+    display: inline-block;
+    height: auto;
   }
 
   .join_openingA {
@@ -453,9 +442,42 @@ and (orientation : portrait) {
   }
 
   /*FOOTER*/
+  footer p {
+    font-size: .6em;
+    margin-bottom: 3vh;
+    text-align: left;
+  }
+
+  footer h2 {
+    display: none;
+  }
 
   .footer_contB {
-    padding-right: 15vw;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    /*border: red solid 1px;*/
+  }
+
+
+  .footer_contB > .row {
+    width: 89vw;
+    /*text-align: left;*/
+    /*border: blue solid 1px;*/
+    /*margin-left: -5vw;*/
+    margin-top: -8vh;
+  }
+
+  .icon {
+    margin: 0 auto;
+    margin-bottom: 2vh;
+    /*float: left;*/
+
+    /*border: green solid 1px;*/
+  }
+
+  .linkedin {
+    margin-right: 12vw;
   }
 
   footer span {
@@ -472,8 +494,6 @@ and (orientation : portrait) {
 
   #openModal2 {
     text-align: left;
-    fo
   }
 }
-
 
